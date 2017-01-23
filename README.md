@@ -8,7 +8,6 @@ The intention of this is to kick-start a project.
 cd /path/to/CMakeHello
 mkdir build
 cd build
-cmake ..
-msbuild CMakeHello.sln
-src/Debug/hello.exe
+cmake .. -G Ninja -DCMAKE_BUILD_TYPE=RelWithDebInfo
+ninja install
 ```
