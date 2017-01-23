@@ -6,8 +6,6 @@ The intention of this is to kick-start a project.
 
 ```
 cd /path/to/CMakeHello
-mkdir build
-cd build
-cmake .. -G Ninja -DCMAKE_BUILD_TYPE=RelWithDebInfo
+init.cmd
 ninja install
 ```
